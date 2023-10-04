@@ -1,1 +1,12 @@
-<p>tracks-page works!</p>
+<div class="tracks-page">
+  <app-section-generic
+    [mode]="'small'"
+    [title]="'La mejor música del mundo!'"
+    [dataTracks]="mockTracksList"
+  ></app-section-generic>
+  <app-section-generic
+    [mode]="'big'"
+    [title]="'Lo mejor de electrónica'"
+    [dataTracks]="mockTracksList"
+  ></app-section-generic>
+</div>
