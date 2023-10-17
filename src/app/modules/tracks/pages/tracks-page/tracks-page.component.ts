@@ -19,12 +19,19 @@ listObservers$:Array<Subscription> = []
   ){}
 
   ngOnInit(): void {
-    this.trackService.getAllTracks$().subscribe((response:TrackModel[])=>{
-      this.tracksTrending = response     
-    })
+    this.loadAllData()
+    this.loadRandomData()    
+  }
 
+  loadAllData(): void{
+    this.trackService.getAllTracks$().subscribe((response:TrackModel[])=>{
+    this.tracksTrending = response     
+    })
+  }
+
+  loadRandomData(): void{
     this.trackService.getAllRandom$().subscribe((response:TrackModel[])=>{
-      this.tracksRandom = response     
+    this.tracksRandom = response     
     })
   }
 
