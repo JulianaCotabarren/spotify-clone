@@ -13,7 +13,7 @@ import { InjectSessionInterceptor } from '@core/interceptors/inject-session.inte
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule,
+    HttpClientModule
   ],
   providers: [CookieService, {
     provide: HTTP_INTERCEPTORS,
