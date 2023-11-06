@@ -1,27 +1,36 @@
-# Spotify
+## Spotify clone
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.3.
 
-## Development server
+## Usage
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+**IMPORTANT:** The project was developed using **npm 9.5.1 version**. Please, check your npm version to avoid problems.
 
-## Code scaffolding
+To run the project locally follow the next steps:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Clone the project: `git clone https://github.com/JulianaCotabarren/node-apiTracks`
 
-## Build
+2. Go to the project directory: `cd nodeApiTracks`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+3. Install dependencies: `npm install`
 
-## Running unit tests
+4. Run the app in the development mode: `node app.js`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+5. Clone the project: `git clone https://github.com/JulianaCotabarren/spotify-clone`
 
-## Running end-to-end tests
+6. Go to the project directory: `cd spotify`
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+7. Install dependencies: `npm install`
 
-## Further help
+8. Run the app in the development mode: `ng serve`
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+9. Navigate to `http://localhost:4200/`.
+
+10. Login with _email: test@test.com_ and _password: 12345678_
+
+## Website Images
+
+![Auth](./src/assets/auth.png)
+![Home](./src/assets/home.png)
+![Library](./src/assets/library.png)
+![Search](./src/assets/search.png)
