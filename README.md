@@ -2,6 +2,25 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.3.
 
+## Tech Stack
+
+- AuthGuard.
+- LazyLoad.
+- Routes and navigation.
+- Reactive forms.
+- Styles with CSS.
+
+## Functionalities
+
+- Login with email and password.
+- Song reproduction.
+- Searcher.
+
+## Deployment
+
+The project was deployed using Vercel.
+[SpotifyClone](https://spotify-clone1-eight.vercel.app/)
+
 ## Usage
 
 **IMPORTANT:** The project was developed using **npm 9.5.1 version**. Please, check your npm version to avoid problems.
