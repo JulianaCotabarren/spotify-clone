@@ -16,11 +16,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - Song reproduction.
 - Searcher.
 
-## Deployment
-
-The project was deployed using Vercel.
-[SpotifyClone](https://spotify-clone1-eight.vercel.app/)
-
 ## Usage
 
 **IMPORTANT:** The project was developed using **npm 9.5.1 version**. Please, check your npm version to avoid problems.
